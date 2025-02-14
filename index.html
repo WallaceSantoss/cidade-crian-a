@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cidade-criança/css/style.css">
+    <link rel="stylesheet" href="cidade-criança/css/animação.css">
+
+    <title>Cidade Criança</title>
+</head>
+
+<body>
+    <header>
+        <h1>Cidade Criança</h1>
+    </header>
+
+    <main id="main-content">
+        <section id="criação-cidade">
+            <h2>Crie sua Cidade</h2>
+            <form id="city-form">
+                <label for="nome-cidade">Nome da Cidade:</label>
+                <input type="text" id="nome-cidade-input" name="nome-cidade">
+            </form>
+            <button onclick="criar()">Criar Cidade</button>
+        </section>
+
+        <div id="Bem-vindo">
+            Bem-vindo à cidade de <span id="nome-cidade"></span>
+            <br>
+            <button onclick="iniciar()">Iniciar</button>
+        </div>
+
+        <section id="jogo">
+            <div id="caraTranquilo">
+        
+               
+            </div>
+            
+        
+        
+        </section>
+    </main>
+
+    <script src="cidade-criança/js/script.js"></script>
+</body>
+
+</html>

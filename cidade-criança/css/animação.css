@@ -1,0 +1,56 @@
+@keyframes movimento1 {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        transform: rotate(367deg);
+        left: 0%;
+    }
+
+}
+
+@keyframes movimento2 {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        top: 20%;
+        left: 0%;
+    }
+
+}
+
+@keyframes dialogo1 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+#caraTranquilo #cara {
+    animation: movimento1 3s forwards;
+}
+
+#dialogo{
+ animation: dialogo1 4s forwards;
+
+}
+
+caraTranquilo #cara2 {
+    animation: movimento2 3s forwards;
+}
+
+#dialogo2{
+ animation: dialogo2 4s forwards;
+
+}
